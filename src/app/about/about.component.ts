@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import {data} from "../data";
 
 @Component({
   selector: 'app-about',
@@ -10,4 +11,5 @@ import { CommonModule } from '@angular/common';
 })
 export class AboutComponent {
 
+  protected readonly data = data;
 }
