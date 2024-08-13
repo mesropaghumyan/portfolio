@@ -3,5 +3,5 @@
 @tailwind utilities;
 
 * {
-  font-family: "Inconsolata", monospace;
+  font-family: "Roboto", sans-serif;
 }
