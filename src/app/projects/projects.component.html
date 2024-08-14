@@ -6,7 +6,7 @@
     <button
       *ngFor="let category of data.fr.projects.categories"
       [ngClass]="{'bg-slate-800 text-slate-50': category.name === selectedCategory}"
-      class="capitalize flex items-center justify-center bg-slate-100 py-2 px-4 rounded-xl text-slate-600 hover:text-slate-100 hover:bg-slate-800 transition-colors duration-300"
+      class="capitalize flex items-center justify-center bg-slate-100 py-2 px-4 rounded-xl hover:text-slate-100 hover:bg-slate-800 transition-colors duration-300"
       (click)="setCategory(category.name)">
       {{ category.name }}
     </button>

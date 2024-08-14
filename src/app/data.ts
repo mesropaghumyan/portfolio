@@ -93,7 +93,7 @@ export const data: Data = {
           description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ornare ac odio eget lacinia. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce nisi nisi, maximus eu finibus iaculis, tincidunt vitae ligula. Integer vitae vehicula ex. In eget ante lectus. Pellentesque consectetur tellus vitae nibh accumsan ullamcorper.",
           technologies: [
             { name: "Python", icon: "icon-[logos--python]" },
-            { name: "Proxmox", icon: "icon-[simple-icons--proxmox]" },
+            { name: "Proxmox", icon: "icon-[simple-icons--proxmox] text-rose-500" },
             { name: "Docker", icon: "icon-[logos--docker-icon]" },
             { name: "Linux", icon: "icon-[flat-color-icons--linux]" }
           ],
@@ -164,6 +164,25 @@ export const data: Data = {
             { name: "Linux", icon: "icon-[flat-color-icons--linux]" }
           ],
         }
+      ]
+    },
+    education: {
+      title: "Formations",
+      schools: [
+        {
+          schoolName: "École des Mines d'Alès",
+          link: "https://www.imt-mines-ales.fr/",
+          degree: "Cursus ingénieur en infromatique et réseaux",
+          startYear: "2024",
+          endYear: "2027"
+        },
+        {
+          schoolName: "IUT Lyon 1",
+          link: "https://iut.univ-lyon1.fr/",
+          degree: "BUT Informatique - Réalisation d'applications",
+          startYear: "2021",
+          endYear: "2024"
+        },
       ]
     }
   }
