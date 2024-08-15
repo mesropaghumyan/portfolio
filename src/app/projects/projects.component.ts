@@ -20,7 +20,7 @@ export class ProjectsComponent {
   }
 
   getFilteredProjects() {
-    const categoryProjects = this.data.fr.projects[this.selectedCategory as string] as Project[];
+    const categoryProjects = this.data.fr.projectSection[this.selectedCategory as string] as Project[];
 
     if (categoryProjects) {
       return categoryProjects;

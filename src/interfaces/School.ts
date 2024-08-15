@@ -1,5 +1,5 @@
 export interface School {
-  schoolName: string;
+  name: string;
   link: string;
   degree: string;
   startYear: string;

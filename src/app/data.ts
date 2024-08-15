@@ -3,7 +3,7 @@ import { Data } from "../interfaces/Data";
 
 export const data: Data = {
   fr: {
-    header: {
+    headerSection: {
       fullName: "Mesrop Aghumyan",
       about: "<span class='bg-gradient-to-r from-cyan-500 to-slate-800 text-slate-100 py-1 px-2'>Développeur web</span> junior passionné par l'informatique 💻",
       location: "Lyon, France",
@@ -44,7 +44,7 @@ export const data: Data = {
         }
       ]
     },
-    projects: {
+    projectSection: {
       title: "Mes projets",
       categories: [
         {
@@ -166,23 +166,44 @@ export const data: Data = {
         }
       ]
     },
-    education: {
+    educationSection: {
       title: "Formations",
       schools: [
         {
-          schoolName: "École des Mines d'Alès",
+          name: "École des Mines d'Alès",
           link: "https://www.imt-mines-ales.fr/",
           degree: "Cursus ingénieur en infromatique et réseaux",
           startYear: "2024",
           endYear: "2027"
         },
         {
-          schoolName: "IUT Lyon 1",
+          name: "IUT Lyon 1",
           link: "https://iut.univ-lyon1.fr/",
           degree: "BUT Informatique - Réalisation d'applications",
           startYear: "2021",
           endYear: "2024"
         },
+      ]
+    },
+    hobbySection: {
+      title: "Loisirs",
+      hobbies: [
+        {
+          name: "Randonnée",
+          icon: "icon-[noto--snow-capped-mountain]"
+        },
+        {
+          name: "Jeux-vidéos",
+          icon: "icon-[noto--joystick]"
+        },
+        {
+          name: "Programmation",
+          icon: "icon-[fluent-emoji--keyboard]"
+        },
+        {
+          name: "Informatique",
+          icon: "icon-[twemoji--laptop-computer]"
+        }
       ]
     }
   }
