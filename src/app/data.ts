@@ -205,6 +205,33 @@ export const data: Data = {
           icon: "icon-[twemoji--laptop-computer]"
         }
       ]
+    },
+    experienceSection: {
+      title: "Experience",
+      experiences: [
+        {
+          company: {
+            name: "Cosywee",
+            link: "https://www.cosywee.com/",
+          },
+          tag: "Apprentissage",
+          jobTitle: "Développeur d'Application & Génie Logiciel",
+          startYear: "sep 2024",
+          endYear: "aoû 2027",
+          jobDescription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ornare ac odio eget lacinia. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce nisi nisi, maximus eu finibus iaculis, tincidunt vitae ligula. Integer vitae vehicula ex. In eget ante lectus. Pellentesque consectetur tellus vitae nibh accumsan ullamcorper.",
+        },
+        {
+          company: {
+            name: "Systailor",
+            link: "https://www.systailor.fr/",
+          },
+          tag: "Apprentissage",
+          jobTitle: "Développeur Full-Stack",
+          startYear: "avr 2023",
+          endYear: "aoû 2024",
+          jobDescription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ornare ac odio eget lacinia. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce nisi nisi, maximus eu finibus iaculis, tincidunt vitae ligula. Integer vitae vehicula ex. In eget ante lectus. Pellentesque consectetur tellus vitae nibh accumsan ullamcorper.",
+        }
+      ]
     }
   }
 };

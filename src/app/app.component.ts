@@ -5,11 +5,12 @@ import {AboutComponent} from "./about/about.component";
 import {ProjectsComponent} from "./projects/projects.component";
 import {EducationComponent} from "./education/education.component";
 import {HobbiesComponent} from "./hobbies/hobbies.component";
+import {ExperienceComponent} from "./experience/experience.component";
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [CommonModule, HeaderComponent, AboutComponent, ProjectsComponent, EducationComponent, HobbiesComponent],
+  imports: [CommonModule, HeaderComponent, AboutComponent, ProjectsComponent, EducationComponent, HobbiesComponent, ExperienceComponent],
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })

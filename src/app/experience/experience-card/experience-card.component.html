@@ -1,0 +1,29 @@
+<div class="flex flex-col gap-y-1">
+  <div class="flex justify-between items-center">
+    <div class="flex flex-col gap-y-1">
+      <div class="flex items-center gap-x-2.5">
+        <a [href]="companyLink" target="_blank" class="hover:underline hover:text-slate-600">
+          <h2 class="md:text-xl font-bold text-slate-800 text-lg">
+            {{ companyName }}
+          </h2>
+        </a>
+        <span class="md:hidden">
+              <p class="md:hidden text-slate-600 font-light">
+                <b class="font-bold text-slate-800 text-lg"> • </b>
+                {{ startYear }} - {{ endYear }}
+              </p>
+            </span>
+        <!--<span class="bg-slate-300 text-slate-800 font-bold py-0.5 px-2 rounded">
+          {{ experience.tag }}
+        </span>-->
+      </div>
+    </div>
+    <div class="max-md:hidden">
+      <p class="text-slate-600 font-light">{{ startYear }} - {{ endYear }}</p>
+    </div>
+  </div>
+  <h3 class="md:text-lg text-slate-800">
+    {{ jobTitle }}
+  </h3>
+  <p class="text-slate-600">{{ jobDescription }}</p>
+</div>

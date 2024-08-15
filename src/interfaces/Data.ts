@@ -3,6 +3,7 @@ import {About} from "./About";
 import {Header} from "./Header";
 import {Education} from "./Education";
 import {HobbySection} from "./HobbySection";
+import {ExperienceSection} from "./ExperienceSection";
 
 export interface Data {
   fr: {
@@ -10,6 +11,7 @@ export interface Data {
     about: About;
     projectSection: ProjectsData;
     educationSection: Education;
-    hobbySection: HobbySection
+    hobbySection: HobbySection;
+    experienceSection: ExperienceSection;
   };
 }

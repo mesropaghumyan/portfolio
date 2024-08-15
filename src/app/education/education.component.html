@@ -5,19 +5,23 @@
     <div *ngFor="let school of data.fr.educationSection.schools">
       <div class="flex justify-between items-center">
         <div class="flex flex-col gap-y-1">
-          <h1 class="max-md:text-lg text-xl font-bold text-slate-800">
+          <div class="flex items-center gap-x-2.5">
             <a [href]="school.link" class="hover:underline hover:text-slate-600">
-              {{ school.name }}
+              <h2 class="md:text-xl font-bold text-slate-800 text-lg">
+                {{ school.name }}
+              </h2>
             </a>
-            <span class="md:hidden text-slate-600 font-light">
-              <b class="font-bold text-slate-800"> • </b>
-              {{ school.startYear }} - {{ school.endYear }}
+            <span class="md:hidden">
+              <p class="md:hidden text-slate-600 font-light">
+                <b class="font-bold text-slate-800 text-lg"> • </b>
+                {{ school.startYear }} - {{ school.endYear }}
+              </p>
             </span>
-          </h1>
+          </div>
           <p class="lg:text-lg text-slate-600">{{ school.degree }}</p>
         </div>
         <div class="max-md:hidden">
-          <p class="text-slate-600">{{ school.startYear }} - {{ school.endYear }}</p>
+          <p class="text-slate-600 font-light">{{ school.startYear }} - {{ school.endYear }}</p>
         </div>
       </div>
     </div>

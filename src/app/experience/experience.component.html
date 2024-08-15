@@ -1,1 +1,14 @@
-<p>experience works!</p>
+<section class="flex flex-col gap-y-2.5">
+  <h1 class="max-md:text-xl text-2xl font-bold text-slate-800">{{ data.fr.experienceSection.title }}</h1>
+
+  <div class="flex flex-col gap-y-2.5">
+    <app-experience-card *ngFor="let experience of data.fr.experienceSection.experiences"
+      [companyLink]="experience.company.link"
+      [companyName]="experience.company.name"
+      [startYear]="experience.startYear"
+      [endYear]="experience.endYear"
+      [jobTitle]="experience.jobTitle"
+      [jobDescription]="experience.jobDescription"
+    />
+  </div>
+</section>
