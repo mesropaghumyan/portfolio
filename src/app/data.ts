@@ -207,7 +207,7 @@ export const data = {
       ]
     },
     experiences: {
-      title: "Experience",
+      title: "Experiences",
       experiences: [
         {
           company: {
