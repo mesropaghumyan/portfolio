@@ -1,11 +1,11 @@
-import { CategoryName } from "../enums/CategoryName";
-import { Data } from "../interfaces/Data";
+import { ProjectCategory } from "../enums/ProjectCategory";
+import {TechnologyCategory} from "../enums/TechnologyCategory";
 
-export const data: Data = {
+export const data = {
   fr: {
     headerSection: {
       fullName: "Mesrop Aghumyan",
-      about: "<span class='bg-gradient-to-r from-cyan-500 to-slate-800 text-slate-100 py-1 px-2'>Développeur web</span> junior passionné par l'informatique 💻",
+      about: "<span class='bg-gradient-to-r from-cyan-500 to-slate-800 text-slate-100 py-1 px-2'>Développeur web</span> junior passionné par l'informatique",
       location: "Lyon, France",
       socials: [
         {
@@ -48,13 +48,13 @@ export const data: Data = {
       title: "Mes projets",
       categories: [
         {
-          name: CategoryName.all
+          name: ProjectCategory.all
         },
         {
-          name: CategoryName.web
+          name: ProjectCategory.web
         },
         {
-          name: CategoryName.script
+          name: ProjectCategory.script
         }
       ],
       all: [
@@ -231,6 +231,169 @@ export const data: Data = {
           endYear: "aoû 2024",
           jobDescription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ornare ac odio eget lacinia. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce nisi nisi, maximus eu finibus iaculis, tincidunt vitae ligula. Integer vitae vehicula ex. In eget ante lectus. Pellentesque consectetur tellus vitae nibh accumsan ullamcorper.",
         }
+      ]
+    },
+    technologiesSection: {
+      title: "Technologies",
+      categories: [
+        {
+          name: TechnologyCategory.languages
+        },
+        {
+          name: TechnologyCategory.frameworks
+        },
+        {
+          name: TechnologyCategory.databases
+        },
+        {
+          name: TechnologyCategory.devTools
+        },
+        {
+          name: TechnologyCategory.devOps
+        },
+        {
+          name: TechnologyCategory.api
+        }
+      ],
+      languages: [
+        {
+          name: "Python",
+          icon: "icon-[logos--python]"
+        },
+        {
+          name: "JavaScript",
+          icon: "icon-[vscode-icons--file-type-js-official]"
+        },
+        {
+          name: "TypeScript",
+          icon: "icon-[devicon--typescript]"
+        },
+        {
+          name: "Node.js",
+          icon: "icon-[vscode-icons--file-type-node]"
+        },
+        {
+          name: "HTML",
+          icon: "icon-[vscode-icons--file-type-html]"
+        },
+        {
+          name: "CSS",
+          icon: "icon-[vscode-icons--file-type-css]"
+        },
+        {
+          name: "PHP",
+          icon: "icon-[devicon--php]"
+        },
+        {
+          name: "Java",
+          icon: "icon-[devicon--java]"
+        },
+      ],
+      frameworks: [
+        {
+          name: "Angular",
+          icon: "icon-[vscode-icons--file-type-angular]"
+        },
+        {
+          name: "Laravel",
+          icon: "icon-[logos--laravel]"
+        },
+        {
+          name: "Express.js",
+          icon: "icon-[simple-icons--express]"
+        },
+      ],
+      databases: [
+        {
+          name: "MySQL",
+          icon: "icon-[devicon--mysql]"
+        },
+        {
+          name: "MongoDB",
+          icon: "icon-[vscode-icons--file-type-mongo]"
+        },
+        {
+          name: "ElasticSearch",
+          icon: "icon-[logos--elasticsearch]"
+        },
+      ],
+      devTools: [
+        {
+          name: "Suite JetBrains",
+          icon: "icon-[logos--jetbrains]"
+        },
+        {
+          name: "Git",
+          icon: "icon-[devicon--git]"
+        },
+        {
+          name: "GitHub",
+          icon: "icon-[mdi--github]"
+        },
+        {
+          name: "GitLab",
+          icon: "icon-[logos--gitlab]"
+        },
+        {
+          name: "Vercel",
+          icon: "icon-[devicon--vercel]"
+        },
+        {
+          name: "Linux",
+          icon: "icon-[devicon--linux]"
+        },
+        {
+          name: "Windows",
+          icon: "icon-[logos--microsoft-windows-icon]"
+        },
+        {
+          name: "UML",
+          icon: "icon-[simple-icons--uml]"
+        },
+      ],
+      devOps: [
+        {
+          name: "Docker",
+          icon: "icon-[logos--docker-icon]"
+        },
+        {
+          name: "GitLab CI/CD",
+          icon: "icon-[iconoir--infinite]"
+        },
+        {
+          name: "SonarQube",
+          icon: "icon-[devicon--sonarqube]"
+        },
+        {
+          name: "Ansible",
+          icon: "icon-[vscode-icons--file-type-ansible]"
+        },
+      ],
+      api: [
+        {
+          name: "Proxmox",
+          icon: "icon-[simple-icons--proxmox]"
+        },
+        {
+          name: "vSphere",
+          icon: "icon-[devicon--vsphere]"
+        },
+        {
+          name: "Netwo",
+          icon: "icon-[mdi--sim-outline]"
+        },
+        {
+          name: "Stripe",
+          icon: "icon-[logos--stripe]"
+        },
+        {
+          name: "GraphQL",
+          icon: "icon-[logos--graphql]"
+        },
+        {
+          name: "Postman",
+          icon: "icon-[devicon--postman]"
+        },
       ]
     }
   }

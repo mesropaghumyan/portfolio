@@ -1,8 +1,7 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { CategoryName } from '../../enums/CategoryName';
+import { ProjectCategory } from '../../enums/ProjectCategory';
 import {data} from "../data";
-import {Project} from "../../interfaces/Project";
 import {ProjectCardComponent} from "./project-card/project-card.component";
 
 @Component({
@@ -13,14 +12,14 @@ import {ProjectCardComponent} from "./project-card/project-card.component";
   styleUrls: ['./projects.component.css']
 })
 export class ProjectsComponent {
-  selectedCategory: CategoryName = CategoryName.all;
+  selectedCategory: ProjectCategory = ProjectCategory.all;
 
-  setCategory(categoryName: CategoryName) {
+  setCategory(categoryName: ProjectCategory) {
     this.selectedCategory = categoryName;
   }
 
   getFilteredProjects() {
-    const categoryProjects = this.data.fr.projectSection[this.selectedCategory as string] as Project[];
+    const categoryProjects = this.data.fr.projectSection[this.selectedCategory] as any;
 
     if (categoryProjects) {
       return categoryProjects;
