@@ -1,1 +1,10 @@
-<p>hobbies works!</p>
+<section class="flex flex-col gap-y-2.5">
+  <h1 class="max-md:text-xl text-2xl font-bold text-slate-800">{{ data.fr.hobbySection.title }}</h1>
+
+  <div class="flex flex-wrap gap-2.5">
+    <app-hobby-card *ngFor="let hobby of data.fr.hobbySection.hobbies"
+      [name]="hobby.name"
+      [icon]="hobby.icon"
+    />
+  </div>
+</section>
