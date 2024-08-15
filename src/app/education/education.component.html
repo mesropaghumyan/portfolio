@@ -1,29 +1,13 @@
 <section class="flex flex-col gap-y-2.5">
-  <h1 class="max-md:text-xl text-2xl font-bold text-slate-800">{{ data.fr.educationSection.title }}</h1>
+  <h1 class="max-md:text-xl text-2xl font-bold text-slate-800">{{ data.fr.education.title }}</h1>
 
   <div class="flex flex-col gap-y-2.5">
-    <div *ngFor="let school of data.fr.educationSection.schools">
-      <div class="flex justify-between items-center">
-        <div class="flex flex-col gap-y-1">
-          <div class="flex items-center gap-x-2.5">
-            <a [href]="school.link" class="hover:underline hover:text-slate-600">
-              <h2 class="md:text-xl font-bold text-slate-800 text-lg">
-                {{ school.name }}
-              </h2>
-            </a>
-            <span class="md:hidden">
-              <p class="md:hidden text-slate-600 font-light">
-                <b class="font-bold text-slate-800 text-lg"> • </b>
-                {{ school.startYear }} - {{ school.endYear }}
-              </p>
-            </span>
-          </div>
-          <p class="lg:text-lg text-slate-600">{{ school.degree }}</p>
-        </div>
-        <div class="max-md:hidden">
-          <p class="text-slate-600 font-light">{{ school.startYear }} - {{ school.endYear }}</p>
-        </div>
-      </div>
-    </div>
+    <app-school-card *ngFor="let school of data.fr.education.schools"
+      [link]="school.link"
+      [name]="school.name"
+      [degree]="school.degree"
+      [startYear]="school.startYear"
+      [endYear]="school.endYear"
+    />
   </div>
 </section>

@@ -19,7 +19,7 @@ export class ProjectsComponent {
   }
 
   getFilteredProjects() {
-    const categoryProjects = this.data.fr.projectSection[this.selectedCategory] as any;
+    const categoryProjects = this.data.fr.projects[this.selectedCategory] as any;
 
     if (categoryProjects) {
       return categoryProjects;

@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import {Component, Input} from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 @Component({
@@ -9,5 +9,9 @@ import { CommonModule } from '@angular/common';
   styleUrls: ['./school-card.component.css']
 })
 export class SchoolCardComponent {
-
+  @Input() link!: string;
+  @Input() name!: string;
+  @Input() degree!: string;
+  @Input() startYear!: string;
+  @Input() endYear!: string;
 }

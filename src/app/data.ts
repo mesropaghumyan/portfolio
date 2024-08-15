@@ -3,7 +3,7 @@ import {TechnologyCategory} from "../enums/TechnologyCategory";
 
 export const data = {
   fr: {
-    headerSection: {
+    header: {
       fullName: "Mesrop Aghumyan",
       about: "<span class='bg-gradient-to-r from-cyan-500 to-slate-800 text-slate-100 py-1 px-2'>Développeur web</span> junior passionné par l'informatique",
       location: "Lyon, France",
@@ -44,7 +44,7 @@ export const data = {
         }
       ]
     },
-    projectSection: {
+    projects: {
       title: "Mes projets",
       categories: [
         {
@@ -166,7 +166,7 @@ export const data = {
         }
       ]
     },
-    educationSection: {
+    education: {
       title: "Formations",
       schools: [
         {
@@ -185,7 +185,7 @@ export const data = {
         },
       ]
     },
-    hobbySection: {
+    hobbies: {
       title: "Loisirs",
       hobbies: [
         {
@@ -206,7 +206,7 @@ export const data = {
         }
       ]
     },
-    experienceSection: {
+    experiences: {
       title: "Experience",
       experiences: [
         {
@@ -233,7 +233,7 @@ export const data = {
         }
       ]
     },
-    technologiesSection: {
+    technologies: {
       title: "Technologies",
       categories: [
         {

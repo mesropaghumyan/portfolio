@@ -1,0 +1,22 @@
+<section class="flex flex-col gap-y-2.5">
+  <h1 class="max-md:text-xl text-2xl font-bold text-slate-800">{{ data.fr.technologies.title }}</h1>
+
+  <!-- Categories -->
+  <div class="flex flex-wrap gap-x-5 gap-y-2.5 mb-2.5">
+    <button
+      *ngFor="let category of data.fr.technologies.categories"
+      [ngClass]="{'bg-slate-800 text-slate-50': category.name === selectedCategory}"
+      class="capitalize flex items-center justify-center bg-slate-100 py-2 px-4 rounded-xl hover:text-slate-100 hover:bg-slate-800 transition-colors duration-300"
+      (click)="setCategory(category.name)">
+      {{ category.name }}
+    </button>
+  </div>
+
+  <div class="flex flex-wrap gap-5">
+    <app-technology-card *ngFor="let technology of getFilteredProjects()"
+      [name]="technology.name"
+      [icon]="technology.icon"
+    />
+  </div>
+
+</section>
