@@ -1,5 +1,5 @@
 export enum ProjectCategory {
-  all = 'all',
   web = 'web',
+  software = 'software',
   script = 'script'
 }

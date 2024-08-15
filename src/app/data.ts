@@ -48,66 +48,33 @@ export const data = {
       title: "Mes projets",
       categories: [
         {
-          name: ProjectCategory.all
+          name: ProjectCategory.web
         },
         {
-          name: ProjectCategory.web
+          name: ProjectCategory.software
         },
         {
           name: ProjectCategory.script
         }
       ],
-      all: [
+      software: [
         {
-          name: "Mika Drive",
+          name: "GraphMap",
           technologies: [
-            { name: "Angular", icon: "icon-[vscode-icons--file-type-angular]" },
-            { name: "TypeScript", icon: "icon-[devicon--typescript]" },
-            { name: "Node.js", icon: "icon-[vscode-icons--file-type-node]" },
-            { name: "GraphQL", icon: "icon-[logos--graphql]" }
+            { name: "Java", icon: "icon-[devicon--java]" },
+            { name: "Swing", icon: "icon-[devicon--java]" }
           ],
           description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ornare ac odio eget lacinia. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce nisi nisi, maximus eu finibus iaculis, tincidunt vitae ligula. Integer vitae vehicula ex. In eget ante lectus. Pellentesque consectetur tellus vitae nibh accumsan ullamcorper.",
           image: {
-            src: "/assets/images/mika_drive_home_page.png",
-            alt: "Page d'accueil de Mika Drive",
-            title: "Page d'accueil de Mika Drive"
+            src: "/assets/images/graph_map.png",
+            alt: "Graph Map",
+            title: "Graph Map"
           },
-          live: {
-            btnIcon: "icon-[codicon--debug-start]",
-            link: "https://www.mikadrive.fr/",
-            btnName: "Live"
+          code: {
+            btnIcon: "icon-[ic--twotone-code]",
+            link: "https://github.com/mesropaghumyan/graph-map",
+            btnName: "Code"
           }
-        },
-        {
-          name: "SimActivator",
-          description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ornare ac odio eget lacinia. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce nisi nisi, maximus eu finibus iaculis, tincidunt vitae ligula. Integer vitae vehicula ex. In eget ante lectus. Pellentesque consectetur tellus vitae nibh accumsan ullamcorper.",
-          technologies: [
-            { name: "Python", icon: "icon-[logos--python]" },
-            { name: "MySQL", icon: "icon-[devicon--mysql]" },
-            { name: "Docker", icon: "icon-[logos--docker-icon]" },
-            { name: "Linux", icon: "icon-[flat-color-icons--linux]" }
-          ],
-        },
-        {
-          name: "ProxmoxLoadBalancer",
-          description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ornare ac odio eget lacinia. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce nisi nisi, maximus eu finibus iaculis, tincidunt vitae ligula. Integer vitae vehicula ex. In eget ante lectus. Pellentesque consectetur tellus vitae nibh accumsan ullamcorper.",
-          technologies: [
-            { name: "Python", icon: "icon-[logos--python]" },
-            { name: "Proxmox", icon: "icon-[simple-icons--proxmox] text-rose-500" },
-            { name: "Docker", icon: "icon-[logos--docker-icon]" },
-            { name: "Linux", icon: "icon-[flat-color-icons--linux]" }
-          ],
-        },
-        {
-          name: "vSphereConsumption",
-          description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ornare ac odio eget lacinia. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce nisi nisi, maximus eu finibus iaculis, tincidunt vitae ligula. Integer vitae vehicula ex. In eget ante lectus. Pellentesque consectetur tellus vitae nibh accumsan ullamcorper.",
-          technologies: [
-            { name: "Python", icon: "icon-[logos--python]" },
-            { name: "MySQL", icon: "icon-[devicon--mysql]" },
-            { name: "vSphere", icon: "icon-[devicon--vsphere]" },
-            { name: "Docker", icon: "icon-[logos--docker-icon]" },
-            { name: "Linux", icon: "icon-[flat-color-icons--linux]" }
-          ],
         }
       ],
       web: [
@@ -117,7 +84,8 @@ export const data = {
             { name: "Angular", icon: "icon-[vscode-icons--file-type-angular]" },
             { name: "TypeScript", icon: "icon-[devicon--typescript]" },
             { name: "Node.js", icon: "icon-[vscode-icons--file-type-node]" },
-            { name: "GraphQL", icon: "icon-[logos--graphql]" }
+            { name: "GraphQL", icon: "icon-[logos--graphql]" },
+            { name: "Tailwind", icon: "icon-[devicon--tailwindcss]" }
           ],
           description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ornare ac odio eget lacinia. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce nisi nisi, maximus eu finibus iaculis, tincidunt vitae ligula. Integer vitae vehicula ex. In eget ante lectus. Pellentesque consectetur tellus vitae nibh accumsan ullamcorper.",
           image: {
@@ -130,7 +98,75 @@ export const data = {
             link: "https://www.mikadrive.fr/",
             btnName: "Live"
           }
-        }
+        },
+        {
+          name: "Portfolio",
+          technologies: [
+            { name: "Angular", icon: "icon-[vscode-icons--file-type-angular]" },
+            { name: "TypeScript", icon: "icon-[devicon--typescript]" },
+            { name: "Tailwind", icon: "icon-[devicon--tailwindcss]" }
+          ],
+          description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ornare ac odio eget lacinia. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce nisi nisi, maximus eu finibus iaculis, tincidunt vitae ligula. Integer vitae vehicula ex. In eget ante lectus. Pellentesque consectetur tellus vitae nibh accumsan ullamcorper.",
+          image: {
+            src: "/assets/images/portfolio.png",
+            alt: "Portfolio de Mesrop Aghumyan",
+            title: "Portfolio de Mesrop Aghumyan"
+          },
+          live: {
+            btnIcon: "icon-[codicon--debug-start]",
+            link: "https://www.mesrop-aghumyan.fr/",
+            btnName: "Live"
+          },
+          code: {
+            btnIcon: "icon-[ic--twotone-code]",
+            link: "https://github.com/mesropaghumyan/portfolio",
+            btnName: "Code"
+          },
+        },
+        {
+          name: "Solar System",
+          technologies: [
+            { name: "JavaScript", icon: "icon-[logos--javascript]" },
+            { name: "ThreeJS", icon: "icon-[logos--threejs]" },
+          ],
+          description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ornare ac odio eget lacinia. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce nisi nisi, maximus eu finibus iaculis, tincidunt vitae ligula. Integer vitae vehicula ex. In eget ante lectus. Pellentesque consectetur tellus vitae nibh accumsan ullamcorper.",
+          image: {
+            src: "/assets/images/solar_system.png",
+            alt: "Système Solaire",
+            title: "Système Solaire"
+          },
+          live: {
+            btnIcon: "icon-[codicon--debug-start]",
+            link: "solar-system-tau-seven.vercel.app/",
+            btnName: "Live"
+          },
+          code: {
+            btnIcon: "icon-[ic--twotone-code]",
+            link: "https://github.com/mesropaghumyan/solar-system",
+            btnName: "Code"
+          },
+        },
+        {
+          name: "Wedding Invitation",
+          technologies: [
+            { name: "JavaScript", icon: "icon-[logos--javascript]" },
+            { name: "Node.js", icon: "icon-[vscode-icons--file-type-node]" },
+            { name: "Express.js", icon: "icon-[simple-icons--express]" },
+            { name: "Tailwind", icon: "icon-[devicon--tailwindcss]" },
+            { name: "Pug", icon: "icon-[vscode-icons--file-type-pug]" },
+          ],
+          description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ornare ac odio eget lacinia. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce nisi nisi, maximus eu finibus iaculis, tincidunt vitae ligula. Integer vitae vehicula ex. In eget ante lectus. Pellentesque consectetur tellus vitae nibh accumsan ullamcorper.",
+          image: {
+            src: "/assets/images/wedding_invitation.png",
+            alt: "Wedding Invitation",
+            title: "Wedding Invitation"
+          },
+          code: {
+            btnIcon: "icon-[ic--twotone-code]",
+            link: "https://github.com/mesropaghumyan/wedding-invitation",
+            btnName: "Code"
+          },
+        },
       ],
       script: [
         {

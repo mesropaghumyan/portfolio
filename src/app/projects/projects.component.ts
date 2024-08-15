@@ -12,7 +12,7 @@ import {ProjectCardComponent} from "./project-card/project-card.component";
   styleUrls: ['./projects.component.css']
 })
 export class ProjectsComponent {
-  selectedCategory: ProjectCategory = ProjectCategory.all;
+  selectedCategory: ProjectCategory = ProjectCategory.web;
 
   setCategory(categoryName: ProjectCategory) {
     this.selectedCategory = categoryName;
