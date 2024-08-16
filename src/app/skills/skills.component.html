@@ -12,7 +12,7 @@
     </button>
   </div>
 
-  <div class="flex flex-wrap gap-5">
+  <div class="flex flex-col gap-5">
     <app-skill-card *ngFor="let skill of getFilteredProjects()"
                          [level]="skill.level"
                          [description]="skill.description"

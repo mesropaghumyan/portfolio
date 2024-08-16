@@ -10,5 +10,5 @@ import { CommonModule } from '@angular/common';
 })
 export class SkillCardComponent {
   @Input() level!: string;
-  @Input() description!: string;
+  @Input() description!: string[];
 }

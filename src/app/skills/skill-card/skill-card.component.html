@@ -1,4 +1,6 @@
 <div class="flex flex-col gap-y-2">
   <h1 class="text-slate-800 font-bold text-lg">{{ level }}</h1>
-  <p>{{ description }}</p>
+  <p *ngFor="let paragraph of description" class="leading-7	text-slate-600">
+    {{ paragraph }}
+  </p>
 </div>

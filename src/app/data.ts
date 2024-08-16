@@ -63,14 +63,13 @@ export const data = {
           name: "GraphMap",
           technologies: [
             { name: "Java", icon: "icon-[devicon--java]" },
-            { name: "Swing", icon: "icon-[devicon--java]" }
           ],
-          description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ornare ac odio eget lacinia. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce nisi nisi, maximus eu finibus iaculis, tincidunt vitae ligula. Integer vitae vehicula ex. In eget ante lectus. Pellentesque consectetur tellus vitae nibh accumsan ullamcorper.",
           image: {
             src: "/assets/images/graph_map.png",
             alt: "Graph Map",
             title: "Graph Map"
           },
+          description: "Ce projet universitaire, réalisé en binôme, consistait à développer une interface homme-machine (IHM) en Java avec la bibliothèque Swing. L'application permet de charger un graphe à partir d'un fichier CSV, puis de calculer diverses propriétés du graphe, comme le plus court chemin entre deux nœuds. Ce projet m'a permis de me familiariser avec les principes fondamentaux de la programmation orientée objet et d'approfondir mes connaissances en théorie des graphes, en mettant en pratique les concepts théoriques à travers des algorithmes concrets.",
           code: {
             btnIcon: "icon-[ic--twotone-code]",
             link: "https://github.com/mesropaghumyan/graph-map",
@@ -88,7 +87,7 @@ export const data = {
             { name: "GraphQL", icon: "icon-[logos--graphql]" },
             { name: "Tailwind", icon: "icon-[devicon--tailwindcss]" }
           ],
-          description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ornare ac odio eget lacinia. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce nisi nisi, maximus eu finibus iaculis, tincidunt vitae ligula. Integer vitae vehicula ex. In eget ante lectus. Pellentesque consectetur tellus vitae nibh accumsan ullamcorper.",
+          description: "En tant que freelance, j'ai réalisé le site web de l'agence Mika Drive pour améliorer leur présence en ligne avec une nouvelle identité visuelle. Le site permet aux utilisateurs de découvrir les services de l'agence, de lire des articles de blog, de contacter le support et de demander un devis. Le front-end a été développé avec Angular et stylisé avec Tailwind CSS, tandis que le back-end repose sur une API Express pour la gestion des mails et des requêtes GraphQL vers Hygraph, utilisé pour modéliser le blog.",
           image: {
             src: "/assets/images/mika_drive_home_page.png",
             alt: "Page d'accueil de Mika Drive",
@@ -107,7 +106,7 @@ export const data = {
             { name: "TypeScript", icon: "icon-[devicon--typescript]" },
             { name: "Tailwind", icon: "icon-[devicon--tailwindcss]" }
           ],
-          description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ornare ac odio eget lacinia. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce nisi nisi, maximus eu finibus iaculis, tincidunt vitae ligula. Integer vitae vehicula ex. In eget ante lectus. Pellentesque consectetur tellus vitae nibh accumsan ullamcorper.",
+          description: "Ce projet universitaire a été réalisé dans le cadre du module de Programmation Multimédia. Il s'agit d'une modélisation du système solaire utilisant la bibliothèque Three.js. Ce projet m'a permis d'acquérir une expérience pratique des concepts de la 3D tout en créant une visualisation interactive et éducative du système solaire, renforçant ainsi mes compétences en développement multimédia.",
           image: {
             src: "/assets/images/portfolio.png",
             alt: "Portfolio de Mesrop Aghumyan",
@@ -130,7 +129,7 @@ export const data = {
             { name: "JavaScript", icon: "icon-[logos--javascript]" },
             { name: "ThreeJS", icon: "icon-[logos--threejs]" },
           ],
-          description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ornare ac odio eget lacinia. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce nisi nisi, maximus eu finibus iaculis, tincidunt vitae ligula. Integer vitae vehicula ex. In eget ante lectus. Pellentesque consectetur tellus vitae nibh accumsan ullamcorper.",
+          description: "Solar System est un mini projet universitaire réalisé dans le cadre du module de Programmation Multimédia. C’est une modélisation du système solaire avec la bibliothèque ThreeJS. J'ai particulièrement apprécié cette expérience, qui m'a permis de développer une compréhension pratique des concepts de la 3D tout en créant une visualisation interactive et éducative du système solaire.",
           image: {
             src: "/assets/images/solar_system.png",
             alt: "Système Solaire",
@@ -156,7 +155,7 @@ export const data = {
             { name: "Tailwind", icon: "icon-[devicon--tailwindcss]" },
             { name: "Pug", icon: "icon-[vscode-icons--file-type-pug]" },
           ],
-          description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ornare ac odio eget lacinia. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce nisi nisi, maximus eu finibus iaculis, tincidunt vitae ligula. Integer vitae vehicula ex. In eget ante lectus. Pellentesque consectetur tellus vitae nibh accumsan ullamcorper.",
+          description: "En tant que freelance, j'ai créé un site web pour un couple souhaitant organiser leur mariage. Cette plateforme, simple d'utilisation, permettait aux invités de consulter le programme du mariage et de confirmer leur présence. Le site intégrait également un formulaire pour collecter des informations essentielles comme les restrictions alimentaires et le nombre d'invités. Ce projet a contribué à une gestion efficace du mariage en centralisant les informations et en simplifiant la communication entre le couple et leurs invités.",
           image: {
             src: "/assets/images/wedding_invitation.png",
             alt: "Wedding Invitation",
@@ -171,8 +170,8 @@ export const data = {
       ],
       script: [
         {
-          name: "SimActivator",
-          description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ornare ac odio eget lacinia. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce nisi nisi, maximus eu finibus iaculis, tincidunt vitae ligula. Integer vitae vehicula ex. In eget ante lectus. Pellentesque consectetur tellus vitae nibh accumsan ullamcorper.",
+          name: "ActivMobile",
+          description: "ActivMobile est un script Python que j'ai développé dans le cadre de mon alternance chez Systailor. Il automatise l'activation et le déploiement de lignes mobiles via l'intégration de l'API de Netwo. Chaque ligne mobile activée est automatiquement insérée dans la base de données RADIUS pour son déploiement. Le script offre également des fonctionnalités supplémentaires, telles que la génération de rapports de consommation des lignes mobiles pour un client spécifique sur une période donnée, ainsi que la création de listes détaillées de lignes mobiles associées à un client. Les fichiers générés sont ensuite automatiquement envoyés par email à l'adresse spécifiée.",
           technologies: [
             { name: "Python", icon: "icon-[logos--python]" },
             { name: "MySQL", icon: "icon-[devicon--mysql]" },
@@ -181,8 +180,8 @@ export const data = {
           ],
         },
         {
-          name: "ProxmoxLoadBalancer",
-          description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ornare ac odio eget lacinia. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce nisi nisi, maximus eu finibus iaculis, tincidunt vitae ligula. Integer vitae vehicula ex. In eget ante lectus. Pellentesque consectetur tellus vitae nibh accumsan ullamcorper.",
+          name: "Proxmox Load Balancer",
+          description: "Dans le cadre de mon alternance chez Systailor, j'ai développé un script Python destiné à automatiser la répartition des charges entre les hyperviseurs d'un cluster Proxmox. Pour cela, j'ai conçu un algorithme qui calcule un seuil basé sur la charge CPU moyenne de l'ensemble des hyperviseurs, et optimise la migration des machines virtuelles entre eux. L'objectif est de maintenir un équilibre optimal des ressources, en veillant à ce que chaque hyperviseur fonctionne dans les limites de ce seuil.",
           technologies: [
             { name: "Python", icon: "icon-[logos--python]" },
             { name: "Proxmox", icon: "icon-[simple-icons--proxmox]" },
@@ -191,8 +190,8 @@ export const data = {
           ],
         },
         {
-          name: "vSphereConsumption",
-          description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ornare ac odio eget lacinia. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce nisi nisi, maximus eu finibus iaculis, tincidunt vitae ligula. Integer vitae vehicula ex. In eget ante lectus. Pellentesque consectetur tellus vitae nibh accumsan ullamcorper.",
+          name: "vSphere Consumption",
+          description: "Lors de mon alternance chez Systailor, j'ai développé un script Python pour automatiser la collecte quotidienne des données de ressources (OS, RAM, CPU, stockage, type de stockage) des machines virtuelles déployées sur vSphere pour nos clients. Ces données sont stockées dans une base de données MySQL que j'ai modélisée. L'objectif est de calculer la consommation moyenne des ressources pour chaque client, afin de générer automatiquement des factures précises.",
           technologies: [
             { name: "Python", icon: "icon-[logos--python]" },
             { name: "MySQL", icon: "icon-[devicon--mysql]" },
@@ -209,7 +208,7 @@ export const data = {
         {
           name: "École des Mines d'Alès",
           link: "https://www.imt-mines-ales.fr/",
-          degree: "Cursus ingénieur en infromatique et réseaux",
+          degree: "Cursus ingénieur en Informatique et Réseaux",
           startYear: "2024",
           endYear: "2027"
         },
@@ -255,7 +254,7 @@ export const data = {
           jobTitle: "Développeur d'Application & Génie Logiciel",
           startYear: "sep 2024",
           endYear: "aoû 2027",
-          jobDescription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ornare ac odio eget lacinia. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce nisi nisi, maximus eu finibus iaculis, tincidunt vitae ligula. Integer vitae vehicula ex. In eget ante lectus. Pellentesque consectetur tellus vitae nibh accumsan ullamcorper.",
+          jobDescription: "",
         },
         {
           company: {
@@ -266,7 +265,7 @@ export const data = {
           jobTitle: "Développeur Full-Stack",
           startYear: "avr 2023",
           endYear: "aoû 2024",
-          jobDescription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ornare ac odio eget lacinia. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce nisi nisi, maximus eu finibus iaculis, tincidunt vitae ligula. Integer vitae vehicula ex. In eget ante lectus. Pellentesque consectetur tellus vitae nibh accumsan ullamcorper.",
+          jobDescription: "En tant qu'alternant chez Systailor, entreprise spécialisée dans l'infogérance et l'hébergement en datacenter, j'ai eu l'opportunité de collaborer étroitement avec des administrateurs systèmes et réseaux. Mes responsabilités principales incluent l'automatisation des tâches opérationnelles et la contribution au développement, en particulier sur les interfaces clients. Cette expérience m'a permis de développer des compétences techniques approfondies tout en participant activement à l'amélioration continue des services proposés par l'entreprise.",
         }
       ]
     },
@@ -458,73 +457,103 @@ export const data = {
       "Realiser": [
         {
           level: "Semestre 1 & 2",
-          description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ornare ac odio eget lacinia. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce nisi nisi, maximus eu finibus iaculis, tincidunt vitae ligula. Integer vitae vehicula ex. In eget ante lectus. Pellentesque consectetur tellus vitae nibh accumsan ullamcorper."
+          description: [
+            "Développer des applications informatiques simples."
+          ]
         },
         {
           level: "Semestre 3 & 4",
-          description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ornare ac odio eget lacinia. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce nisi nisi, maximus eu finibus iaculis, tincidunt vitae ligula. Integer vitae vehicula ex. In eget ante lectus. Pellentesque consectetur tellus vitae nibh accumsan ullamcorper."
+          description: [
+            "Partir des exigences et aller jusqu'à une application complète."
+          ]
         },
         {
           level: "Semestre 5 & 6",
-          description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ornare ac odio eget lacinia. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce nisi nisi, maximus eu finibus iaculis, tincidunt vitae ligula. Integer vitae vehicula ex. In eget ante lectus. Pellentesque consectetur tellus vitae nibh accumsan ullamcorper."
+          description: [
+            "Adapter des applications sur un ensemble de supports (embarqué, web, mobile, IoT...)"
+          ]
         }
       ],
       "Optimiser": [
         {
           level: "Semestre 1 & 2",
-          description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ornare ac odio eget lacinia. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce nisi nisi, maximus eu finibus iaculis, tincidunt vitae ligula. Integer vitae vehicula ex. In eget ante lectus. Pellentesque consectetur tellus vitae nibh accumsan ullamcorper."
+          description: [
+            "Appréhender et construire des algorithmes."
+          ]
         },
         {
           level: "Semestre 3 & 4",
-          description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ornare ac odio eget lacinia. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce nisi nisi, maximus eu finibus iaculis, tincidunt vitae ligula. Integer vitae vehicula ex. In eget ante lectus. Pellentesque consectetur tellus vitae nibh accumsan ullamcorper."
+          description: [
+            "Sélectionner les algorithmes adéquats pour répondre à un problème donné."
+          ]
         },
         {
           level: "Semestre 5 & 6",
-          description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ornare ac odio eget lacinia. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce nisi nisi, maximus eu finibus iaculis, tincidunt vitae ligula. Integer vitae vehicula ex. In eget ante lectus. Pellentesque consectetur tellus vitae nibh accumsan ullamcorper."
+          description: [
+            "Analyser et optimiser des applications."
+          ]
         }
       ],
       "Administrer": [
         {
           level: "Semestre 1 & 2",
-          description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ornare ac odio eget lacinia. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce nisi nisi, maximus eu finibus iaculis, tincidunt vitae ligula. Integer vitae vehicula ex. In eget ante lectus. Pellentesque consectetur tellus vitae nibh accumsan ullamcorper."
+          description: [
+            "Installer et configurer un poste de travail."
+          ]
         },
         {
           level: "Semestre 3 & 4",
-          description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ornare ac odio eget lacinia. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce nisi nisi, maximus eu finibus iaculis, tincidunt vitae ligula. Integer vitae vehicula ex. In eget ante lectus. Pellentesque consectetur tellus vitae nibh accumsan ullamcorper."
+          description: [
+            "Déployer des services dans une architecture réseau"
+          ]
         }
       ],
       "Gerer": [
         {
           level: "Semestre 1 & 2",
-          description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ornare ac odio eget lacinia. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce nisi nisi, maximus eu finibus iaculis, tincidunt vitae ligula. Integer vitae vehicula ex. In eget ante lectus. Pellentesque consectetur tellus vitae nibh accumsan ullamcorper."
+          description: [
+            "Concevoir et mettre en place une base de données à partir d'un cahier des charges client."
+          ]
         },
         {
           level: "Semestre 3 & 4",
-          description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ornare ac odio eget lacinia. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce nisi nisi, maximus eu finibus iaculis, tincidunt vitae ligula. Integer vitae vehicula ex. In eget ante lectus. Pellentesque consectetur tellus vitae nibh accumsan ullamcorper."
+          description: [
+            "Optimiser une base de données, intéragir avec une application et mettre en oeuvre la sécurité."
+          ]
         }
       ],
       "Conduire": [
         {
           level: "Semestre 1 & 2",
-          description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ornare ac odio eget lacinia. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce nisi nisi, maximus eu finibus iaculis, tincidunt vitae ligula. Integer vitae vehicula ex. In eget ante lectus. Pellentesque consectetur tellus vitae nibh accumsan ullamcorper."
+          description: [
+            "Identifier les besoins métiers des clients et des utilisateurs."
+          ]
         },
         {
           level: "Semestre 3 & 4",
-          description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ornare ac odio eget lacinia. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce nisi nisi, maximus eu finibus iaculis, tincidunt vitae ligula. Integer vitae vehicula ex. In eget ante lectus. Pellentesque consectetur tellus vitae nibh accumsan ullamcorper."
+          description: [
+            "Appliquer une démarche de suivi de projet en fonction des besoins métiers des clients et des utilisateurs."
+          ]
         }
       ],
       "Collaborer": [
         {
           level: "Semestre 1 & 2",
-          description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ornare ac odio eget lacinia. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce nisi nisi, maximus eu finibus iaculis, tincidunt vitae ligula. Integer vitae vehicula ex. In eget ante lectus. Pellentesque consectetur tellus vitae nibh accumsan ullamcorper."
+          description: [
+            "Identifier ses aptitudes pour travailler dans une équipe."
+          ]
         },
         {
           level: "Semestre 3 & 4",
-          description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ornare ac odio eget lacinia. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce nisi nisi, maximus eu finibus iaculis, tincidunt vitae ligula. Integer vitae vehicula ex. In eget ante lectus. Pellentesque consectetur tellus vitae nibh accumsan ullamcorper."
+          description: [
+            "Situer son rôle et ses missions au sein d'une équipe informatique."
+          ]
         },
         {
           level: "Semestre 5 & 6",
-          description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ornare ac odio eget lacinia. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce nisi nisi, maximus eu finibus iaculis, tincidunt vitae ligula. Integer vitae vehicula ex. In eget ante lectus. Pellentesque consectetur tellus vitae nibh accumsan ullamcorper."
+          description: [
+            "Manager une équipe informatique."
+          ]
         }
       ],
     }
